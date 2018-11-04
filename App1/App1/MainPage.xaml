@@ -1,0 +1,246 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TabbedPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:App1"
+             x:Class="App1.MainPage">
+   
+    <ContentPage  Title="HAKKINDA">
+        <ContentPage.Content>
+            <ScrollView>
+               <StackLayout VerticalOptions="Center" HorizontalOptions="Center">
+                    <Label TextColor="#FF0000" FontSize = "20" Text="Bölüm Hakkında" ></Label>
+
+
+                     <Label FontSize="10" Text="Ülkemizde sanayinin ve teknolojinin gelişmesine bağlı olarak bilgisayar teknolojisi konusunda deneyimli ve nitelikli teknik personele gereksinim her geçen gün daha da artmaktadır. Anadolu Üniversitesi Bilgisayar Mühendisliği Bölümü, ülkemizin bu anlamda ihtiyacı olan güncel bilgi birikimine sahip bilgisayar mühendisleri yetiştirmek amacıyla 1993 yılında kurulmuş olup 2000-2001 öğretim yılında lisans düzeyinde eğitime başlamıştır. Bölümümüz, bu tarihten beri kaliteli eğitim anlayışından ödün vermeden, hem akademik kadrosunu hem de altyapısını bilgisayar teknolojilerindeki değişimlere ayak uyduracak şekilde geliştirmekte; bilgili, bilinçli, donanımlı ve etik değerlere önem veren Bilgisayar Mühendisleri yetiştirmektedir. Lisans programının yanında yüksek lisans ve doktora eğitimi de verilmektedir. 
+
+Bölümde eğitim dili İngilizce'dir. Eğitim süresi, 1 yıllık İngilizce hazırlık sınıfı ve 4 yıllık lisans programı olmak üzere toplam 5 yıldır. Bölüm, Anadolu Üniversitesi İki Eylül kampüsünde yer almaktadır ve 5000 m2'lik bir alana sahiptir.">
+                    
+                     </Label>
+                    
+                    <Label TextColor="#FF0000" FontSize = "20" Text="Misyon" ></Label>
+
+                     <Label FontSize="10" Text="Özgörevimiz, çağdaş ve evrensel nitelikte bilgi üreten, bu bilgiyi toplumun faydası için kullanan, temel değerlerimizi benimsemiş, mesleklerinde lider konumda olan mühendisler yetiştirmektir. ">
+                     </Label>
+
+                    <Label TextColor="#FF0000" FontSize = "20" Text="Vizyon" ></Label>
+
+                     <Label FontSize="10" Text="Vizyonumuz, mezunlarımızın ve öğretim elemanlarımızın geliştirdiği nitelikli projeler ve toplumsal katkılarıyla gerek yurtiçi gerekse yurtdışındaki Bilgisayar Mühendisliği Bölümleri arasında önde gelenlerden biri olmaktır. "></Label>
+                   
+                    <Label TextColor="#FF0000" FontSize = "20" Text="Temel Değerler" ></Label>
+                    <Label FontSize="10">Bilimsellik
+İnsan Odaklılık
+Yenilikçilik
+Mükemmeliyetçilik
+Kararlılık
+Duyarlılık
+İş Etiğine Bağlılık
+Yaşam Boyu Öğrenme Bilinci</Label>
+
+
+
+                </StackLayout>
+            </ScrollView>
+        </ContentPage.Content>
+        </ContentPage>
+
+        <ContentPage Title="KISILER">
+        
+            <ContentPage.Content>
+            <ScrollView>
+            <StackLayout>
+                <Grid>
+                
+                    <Grid.RowDefinitions>
+                    <RowDefinition Height="*" />
+                    <RowDefinition Height="*" />
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                </Grid.ColumnDefinitions>
+
+                
+
+                    <FlexLayout HeightRequest="75" BackgroundColor="Bisque" Grid.Row="0" Grid.Column="0"  Direction="Row">
+
+                    <Image WidthRequest="75" Margin="5" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" Source="http://ceng.eskisehir.edu.tr/img/aarslan2.jpg"/>
+
+                        <Label VerticalTextAlignment="Center" FontSize="8" Text="Dr.Öğr. Üy. Ahmet ARSLAN" />
+                           
+                     </FlexLayout>
+
+                <FlexLayout HeightRequest="75" BackgroundColor="Bisque" Grid.Row="0" Grid.Column="1"  Direction="Row">
+
+                        <Image  WidthRequest="75" Margin="5" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" Source="http://ceng.eskisehir.edu.tr/img/yhoscan.jpg"/>
+
+                    <Label VerticalTextAlignment="Center" FontSize="8" Text=" Prof.Dr. Yaşar HOŞCAN" />
+
+                </FlexLayout>
+
+                <FlexLayout HeightRequest="75" BackgroundColor="Bisque" Grid.Row="1" Grid.Column="0"  Direction="Row">
+
+                        <Image WidthRequest="75" Margin="5" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" Source="http://ceng.eskisehir.edu.tr/img/serkangunal.jpg"/>
+
+                    <Label VerticalTextAlignment="Center" FontSize="8" Text="Doç.Dr. Serkan GÜNAL     " />
+
+                </FlexLayout>
+
+                <FlexLayout HeightRequest="75" BackgroundColor="Bisque" Grid.Row="1" Grid.Column="1" Direction="Row">
+
+                        <Image WidthRequest="75" Margin="5" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" Source="http://ceng.eskisehir.edu.tr/img/ckaleli.jpg"/>
+
+                    <Label VerticalTextAlignment="Center" FontSize="8" Text=" Doç.Dr. Cihan KALELİ    " />
+
+                </FlexLayout>
+
+                <FlexLayout HeightRequest="75" BackgroundColor="Bisque" Grid.Row="2" Grid.Column="0" Direction="Row">
+
+                        <Image WidthRequest="75" Margin="5" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" Source="http://ceng.eskisehir.edu.tr/img/akuysal.jpg"/>
+
+                    <Label VerticalTextAlignment="Center" FontSize="8" Text="Dr.Öğr.Üy.Alper K. UYSAL" />
+
+                </FlexLayout>
+
+                <FlexLayout HeightRequest="75" BackgroundColor="Bisque" Grid.Row="2" Grid.Column="1" Direction="Row">
+
+                        <Image WidthRequest="75" Margin="5" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" Source="http://ceng.eskisehir.edu.tr/img/abilge.png"/>
+
+                    <Label VerticalTextAlignment="Center" FontSize="8" Text="Dr.Öğr. Üyesi Alper BİLGE  " />
+
+                </FlexLayout>
+
+                <FlexLayout HeightRequest="75" BackgroundColor="Bisque" Grid.Row="3" Grid.Column="0" Direction="Row">
+
+                            <Image WidthRequest="75" Margin="5" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" Source="http://ceng.eskisehir.edu.tr/img/oozsen.jpg"/>
+
+                    <Label HorizontalTextAlignment="Center" VerticalTextAlignment="Center" FontSize="8" Text="Öğr.Gör. Özgür ÖZŞEN      " />
+
+                </FlexLayout>
+
+                <FlexLayout HeightRequest="75" BackgroundColor="Bisque" Grid.Row="3" Grid.Column="1" Direction="Row">
+
+                            <Image WidthRequest="75" Margin="5" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" Source="http://ceng.eskisehir.edu.tr/img/etdemirkiran.jpg"/>
+
+                    <Label HorizontalTextAlignment="Center" VerticalTextAlignment="Center" FontSize="8" Text="Arş.Gör.Emin T. DEMİRKIRAN" />
+
+                </FlexLayout>
+
+
+        
+
+
+        </Grid>
+            </StackLayout>
+            </ScrollView>
+
+        </ContentPage.Content>
+        
+
+
+    </ContentPage>
+
+    <ContentPage Title="ALTYAPI">
+        <ContentPage.Content>
+            <StackLayout VerticalOptions="Center" HorizontalOptions="Center">
+
+                <ContentView >
+                    <StackLayout >
+                   
+                        <StackLayout Orientation="Horizontal">
+                          <StackLayout>
+                           <Label HorizontalTextAlignment="Start" VerticalTextAlignment="Start" FontSize="18" Text="Derslik-B1"></Label>
+                           <Label Text="Kapasite:36"></Label>
+                          </StackLayout>
+                            <Image HorizontalOptions="End" WidthRequest="55" HeightRequest="55" Source="http://ceng.eskisehir.edu.tr/Documents/Class_B1.jpg"></Image>
+                       </StackLayout>
+
+                        <StackLayout Orientation="Horizontal">
+                            <StackLayout HorizontalOptions="Start">
+                                <Label HorizontalTextAlignment="Start" VerticalTextAlignment="Start" FontSize="18" Text="Derslik-B2"></Label>
+                                <Label Text="Kapasite:15"></Label>
+                            </StackLayout>
+                            <StackLayout HorizontalOptions="EndAndExpand">
+                            <Image HorizontalOptions="EndAndExpand" WidthRequest="55" HeightRequest="55" Source="http://ceng.eskisehir.edu.tr/Documents/Class_B2_icon.jpg"></Image>
+                            </StackLayout>
+                        </StackLayout>
+
+                        <StackLayout Orientation="Horizontal">
+                            <StackLayout>
+                                <Label HorizontalTextAlignment="Start" VerticalTextAlignment="Start" FontSize="18" Text="Derslik-B3"></Label>
+                                <Label Text="Kapasite:18"></Label>
+                            </StackLayout>
+                            <Image HorizontalOptions="End" WidthRequest="55" HeightRequest="55" Source="http://ceng.eskisehir.edu.tr/Documents/Class_B3.jpg"></Image>
+                        </StackLayout>
+
+                        <StackLayout Orientation="Horizontal">
+                            <StackLayout>
+                                <Label HorizontalTextAlignment="Start" VerticalTextAlignment="Start" FontSize="18" Text="Derslik-B4"></Label>
+                                <Label Text="Kapasite:24"></Label>
+                            </StackLayout>
+                            <Image HorizontalOptions="End" WidthRequest="55" HeightRequest="55" Source="http://ceng.eskisehir.edu.tr/Documents/Class_B4.jpg"></Image>
+                        </StackLayout>
+
+                        <StackLayout Orientation="Horizontal">
+                            <StackLayout>
+                                <Label HorizontalTextAlignment="Start" VerticalTextAlignment="Start" FontSize="18" Text="Labarat. 1"></Label>
+                                <Label Text="Kapasite:61"></Label>
+                            </StackLayout>
+                            <Image HorizontalOptions="End" WidthRequest="55" HeightRequest="55" Source="http://ceng.eskisehir.edu.tr/Documents/Lab_PC1_icon.jpg"></Image>
+                        </StackLayout>
+
+                    </StackLayout>
+                </ContentView>
+                    
+            </StackLayout>
+        </ContentPage.Content>
+    </ContentPage>
+
+    <ContentPage Title="DERSLER">
+        <ContentPage.Content>
+            <StackLayout VerticalOptions="Center" HorizontalOptions="Center">
+                <Label TextColor="#FF0000" Text="Bu Dönem Yürütülen Lisans ve Lisansüstü Ders Bilgileri">
+
+                </Label>
+                <ScrollView>
+
+                <Label>
+                    BIL519 - İleri Algoritma Analizi
+BIL551 - İleri Veri Tabanı Yönetim Sistemleri
+BIL561 - Bulanık Sinir Ağları
+BIL567 - Öneri Sistemlerine Giriş
+BIM101 - Bilgisayar Programlama I
+BIM203 - Mantık Tasarımı
+BIM207 - Bilgisayar Programlama III
+BIM209 - Yazılım Tasarlama ve Geliştirme Prensipleri
+BIM213 - Veri Yapıları ve Algoritmalar
+BIM302 - Bilgisayar Ağları
+BIM303 - Mikrobilgisayarlar
+BIM305 - Bilgisayar Organizasyonu
+BIM306 - İşletim Sistemleri
+BIM308 - Web Sunucu Programlama
+BIM309 - Yapay Us
+BIM313 - İleri Programlama Teknikleri
+BIM314 - Hesaplama Kuramı
+BIM405 - Proje Yönetimi
+BIM423 - Yazılım Mühendisliği
+BIM437 - Bilgisayar Mühendisliği Tasarımları
+BIM439 - Veritabanı Yönetim Sistemleri Uygulamaları
+BIM451 - MVC ile Web Sunucu Programlama
+BIM466 - Bulanık Mantık
+BIM478 - Yönetim Bilişim Sistemleri
+BIM485 - Bilgisayar Bilimlerinde Araştırma I - L (Alper Bilge)
+BIM488 - Örüntü Tanımaya Giriş
+BIM490 - Bilgi Erişim Sistemleri
+BIM492 - Tasarım Örüntüleri
+BIM493 - Mobil Programlama I
+İST252 - Olasılık ve İstatistik
+MAT249 - Lineer Cebir ve Diferansiyel Denklemler
+MAT806 - Matematik II</Label>
+                </ScrollView>
+
+            </StackLayout>
+        </ContentPage.Content>
+    </ContentPage>
+
+
+</TabbedPage>
